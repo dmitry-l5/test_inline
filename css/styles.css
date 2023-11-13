@@ -1,0 +1,38 @@
+.form{
+    margin: 15px 5px;
+}
+.form form{
+    display : flex;
+}
+.form  input{
+    width: 100%;
+}
+.form label,
+.form button{
+    text-align: center;
+    min-width:100px;
+}
+.post{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 15px 10px;
+}
+.post > .title{
+    text-align: center;
+    font-weight: 700;
+}
+.post > .text{
+    
+    color: rgb(100, 100, 100);
+}
+.post > .comments_holder{
+
+    padding-left: 25px;
+    color:  rgb(125, 125, 125);;
+}
+.post > .comments_holder > *{
+    border-bottom: 1px solid gray;
+    border-left: 2px solid gray;
+    margin-top: 10px;
+    padding-left: 10px;
+}

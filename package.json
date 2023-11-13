@@ -1,0 +1,11 @@
+{
+  "name": "test_inline",
+  "version": "1.0.0",
+  "description": "test task for 'inline'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
